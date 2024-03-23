@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class YandexSearchTestCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()  # Используем Chrome, но можно выбрать другой браузер
-        self.driver.get("https://ya.ru/")
+        self.driver.get('https://ya.ru/')
 
     def test_search_selenium_on_first_position(self):
 
